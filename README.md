@@ -11,6 +11,12 @@ You are required to model the demand for shared bikes with the available indepen
 ### Model Building
 
 In the dataset provided, you will notice that there are three columns named `casual`, `registered`, and `cnt`. The variable `casual` indicates the number casual users who have made a rental. The variable `registered` on the other hand shows the total number of registered users who have made a booking on a given day. Finally, the `cnt` variable indicates the total number of bike rentals, including both `casual` and `registered`. The model should be built taking this `cnt` as the target variable.
+### Conclusion
+- `Temp` is the most significant variable with the largest coefficient.
+- Followed by `yr` and `season_Winter`.
+- Bike rentals is more for the month of `september`.
+- The rentals reduce due to increase in `windspeed`.
+- The rentals reduce during `holiday`.
 ### Steps for Model Building
 1. Reading and Understanding Data  
 2. Visualising the Data  
